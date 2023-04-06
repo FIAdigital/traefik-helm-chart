@@ -195,7 +195,7 @@ providers:
     namespaces:
       - traefik-in2
     # IP used for Kubernetes Ingress endpoints
-    publishedService: traefik-in2/traefin-in2
+    publishedService: traefik-in2/traefik-in2
     #  enabled: true
       # Published Kubernetes Service to copy status from. Format: namespace/servicename
       # By default this Traefik service
